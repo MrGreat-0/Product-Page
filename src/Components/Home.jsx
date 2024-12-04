@@ -35,7 +35,7 @@ const Home = () => {
               : "ALL"}
           </h1>
         </div>
-        <div className="relative h-full w-full bg-slate-800 flex flex-wrap gap-6 py-12 px-6 overflow-x-hidden overflow-y-auto justify-center items-center">
+        <div className="relative h-full w-full bg-slate-800 flex flex-wrap gap-6 py-8 px-6 overflow-x-hidden overflow-y-auto justify-center items-center">
           {filteredProduct.map((item) => {
             return <Card key={item.id} product={item} />;
           })}

@@ -7,7 +7,7 @@ const Card = ({ product }) => {
   return (
     <Link
       to={`/details/${id}`}
-      className="relative  text-zinc-200 h-auto sm:w-[45%] md:w-[30%] lg:w-[25%] xl:w-[20%] border rounded-xl p-3 flex flex-col items-center justify-center overflow-hidden"
+      className="relative  text-zinc-200 h-auto w-[85%] sm:w-[45%] md:w-[30%] lg:w-[25%] xl:w-[20%] border rounded-xl p-3 flex flex-col items-center justify-center overflow-hidden"
     >
       <div className="relative h-[70%] w-full border rounded-md mb-2 overflow-hidden ">
         <img
