@@ -19,3 +19,7 @@ A simple React app to manage products. Users can view, filter by category, add, 
    - React Hook Form for form handling.
    - React Toastify for notifications.
    - Tailwind CSS for styling.
+
+# Live Demo
+
+- Check out the live demo here: [Product Page Demo](https://product-page-amber.vercel.app/)
