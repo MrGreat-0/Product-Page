@@ -40,7 +40,7 @@ const CardDetail = () => {
 
   return (
     <div className="h-screen w-full grid place-items-center relative">
-      <div className=" md:h-[90] md:w-[90%] relative md:flex">
+      <div className=" md:h-[90] md:w-[90%] relative md:flex md:items-center">
         <div className="relative h-full w-[60%] md:w-[40%] md:mx-10 mx-auto overflow-hidden rounded-lg">
           <img
             className="w-full h-full object-contain "
